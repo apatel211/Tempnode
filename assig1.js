@@ -1,7 +1,14 @@
 var file = (" fs ");
 
-file.appendFile("t1.js", "Hello word "{
+file.appendFile("t2.txt", "Hello word ",function (Run){
+    if (run)
+    {
 
-    console.log("file added");
-});
+    console.log("error comes");
+    }
+    else
+    {
+    console.log("this file is saved");
+    }
 
+)};
